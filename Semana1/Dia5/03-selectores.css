@@ -1,0 +1,23 @@
+/* Selector de Etiqueta */
+
+/* Todos los label de la página */
+
+label {
+    color: teal;
+}
+
+/* Compartiendo atributos */
+/* Estilo que afecta al h1 y a todos los h2 */
+h2, h1 {
+    color: purple;
+}
+
+/* Selector de hijos a cualquier nivel */
+ul li {
+    color: red;
+}
+
+/* Selector de hijos a primer nivel */
+ol > li {
+    color: blue;
+}
